@@ -13,6 +13,9 @@ function NavBar() {
       <NavLink to="/contact" className="nav_link">
         Contact
       </NavLink>
+      <NavLink to="/users" className="nav_link">
+        Users
+      </NavLink>
     </nav>
   );
 }

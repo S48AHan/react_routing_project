@@ -26,6 +26,13 @@ function Contact() {
       >
         Go to Home
       </button>
+      <button
+        onClick={() => {
+          navigate("/blogs");
+        }}
+      >
+        Go to Blogs
+      </button>
     </div>
   );
 }

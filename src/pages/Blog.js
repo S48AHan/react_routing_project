@@ -4,8 +4,12 @@ import { blogsData } from "../data";
 
 function Blog() {
   //   const [bodyData, setBodyData] = useState("");
+
+  ///State er upor kaj kore
   const location = useLocation();
   //   console.log(location);
+
+  ///Parameter er upor kaj kore
   const { title } = useParams();
 
   //   useEffect(() => {
